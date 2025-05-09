@@ -1,0 +1,154 @@
+#HTML INTRO
+
+1. Headings :
+
+HTML Code :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headings</title>
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+</body>
+</html>
+
+
+
+2. Basic Tables :
+
+HTML Code :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Tables</title>
+</head>
+<body>
+    
+    <table border="1">
+        <thead>
+            <th>No.</th>
+            <th>Full Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Founder Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Founder Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Founder Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zuckerberg</td>
+                <td>Founder Facebook</td>
+                <td>$1300</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+
+3. Masai Simple Layout :
+
+HTML Code :
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai Simple Layout</title>
+</head>
+<body>
+    <div>
+    <img src="https://masai-course.s3.ap-south-1.amazonaws.com/resources/images/masai_logo.svg" alt="masai_logo">
+    <br><br>
+    <img src="https://masai-course.s3.ap-south-1.amazonaws.com/resources/images/masai_banner.jpg" alt="girl_reading" width="350">
+    <br><br>
+    <p>We will be learning the following things this week:</p>
+    <br>
+    <table>
+        <thead>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+            <th>Day 4</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Linux 1</td>
+                <td>HTML</td>
+                <td>Linux 2</td>
+                <td>Linux 3</td>
+            </tr>
+            <tr>
+                <td>GIT 1</td>
+                <td>CSS</td>
+                <td>Git 2</td>
+                <td>Bootstrap</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>If you want to contact me, please fill in this form:</p>
+
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text"> </td>
+        </tr>
+        <tr>
+            <td>Phone no:</td>
+            <td><input type="text"> </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="text"> </td>
+        </tr>
+    </table>
+    <br>
+
+    <h3>The following things are important to be a programmer</h3>
+
+    <ul>
+        <li>A problem solving mindset</li>
+        <li>Consistency
+        <ul>
+            <li>Clean code</li>
+            <li>Thorough knowledge of core concepts</li>
+            <li>Readable code</li>
+        </ul>
+        </li>
+        <li>Speed</li>
+    </ul>
+
+</div>
+</body>
+</html>
